@@ -27,10 +27,9 @@
 .product-info {
   margin-left: 14px;
 }
-.product p {
-  margin: 0px;
-  padding: 0px;
-}
+/* .product p {
+  margin: 0
+} */
 
 .button-cart {
   border-radius: 0px 0px 8px 8px;

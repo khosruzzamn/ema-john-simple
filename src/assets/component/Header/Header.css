@@ -12,3 +12,7 @@ nav.header a {
   color: #ffff;
   margin-left: 30px;
 }
+
+nav.header a:hover {
+  color: orange;
+}
