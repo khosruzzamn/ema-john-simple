@@ -5,6 +5,7 @@ const Cart = (props) => {
   // const cart = props.cart;//optio one
 
   const { cart } = props;
+  console.log(cart);
   let totalPrice = 0;
   let totalShipping = 0;
 
@@ -19,10 +20,10 @@ const Cart = (props) => {
     <div className="cart">
       <h4>Order summery</h4>
       <p>Selected Items: {cart.length}</p>
-      <p>Total price :</p>
+      <p>Total price : ${totalPrice}</p>
       <p>Total Shipping:{totalShipping} </p>
       <p> Tax : {tax.toFixed(2)} </p>
-      <h6>Grand Total:{grandTotal} </h6>
+      <h6>Grand Total: {grandTotal} </h6>
     </div>
   );
 };
